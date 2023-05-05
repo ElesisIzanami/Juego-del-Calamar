@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./styles/img/iconCalamar.png">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet"> 
+    <title>Juego del calamar!</title>
+</head>
+<body>
+    
+    <section class="portadaContainer">
+        <img class="imagenPortada" src="./styles/img/peakpx(1).jpg" alt="">
+        <div class="loginContainer">
+            <h1>Bienvenido al Juego del Calamar!</h1>
+            <input id="inputNombre" type="text" placeholder="ingresa tu nombre">
+            <button class="button" id="start">Start</button>
+        </div>
+    </section>
+   
+    <section class="pagina1">
+        <div class="imagenPreguntaContainer">
+            <img class="imagenPregunta" src="./styles/img/peakpx.jpg" alt="">
+        </div>
+        <div class="Preguntas1Container">
+            <h1>PREGUNTA 1</h1>
+            <span class="spanJugador" id="nombreJugadorspan"></span> 
+            <p id="pregunta1"></p>
+            <div class="buttonContainer" id="buttonContainerA"></div>
+            <button class="button" id="nextButton1">next</button>     
+        </div>    
+    </section>
+
+    <section class="pagina2">
+        <div class="imagenPreguntaContainer">
+            <img class="imagenPregunta" src="./styles/img/peakpx.jpg" alt="">
+        </div>
+        <div class="Preguntas1Container">
+            <h1>PREGUNTA 2</h1>
+            <span class="spanJugador" id="nombreJugadorspan2"></span> 
+            <p id="pregunta2"></p>
+            <div class="buttonContainer" id="buttonContainerB"></div>
+            <button class="button" id="nextButton2">next</button>
+        </div>    
+    </section>
+   
+    <section class="pagina3">
+        <div class="imagenPreguntaContainer">
+            <img class="imagenPregunta" src="./styles/img/peakpx.jpg" alt="">
+        </div>
+        <div class="Preguntas1Container">
+            <h1>PREGUNTA 3</h1>
+            <span class="spanJugador" id="nombreJugadorspan3"></span> 
+            <p id="pregunta3"></p>
+            <div class="buttonContainer" id="buttonContainerC"></div>
+            <button class="button" id="nextButton3">next</button>
+        </div>       
+    </section>
+
+    <section class="pagina4">
+        <div class="imagenPreguntaContainer">
+            <img class="imagenPregunta" src="./styles/img/peakpx.jpg" alt="">
+        </div>
+        <div class="resultadoContainer">
+            <h1>RESULTADO</h1>  
+            <p><span id="nombreJugadorspan4"></span> obtuviste: <span class="spanJugador" id="resultado"></span>puntos</p>
+            <button class="button" id="reloadButton">🏠</button>
+        </div>    
+    </section>
+  
+<script src="./main.js" type="module" ></script>
+    
+</body>
+</html>
